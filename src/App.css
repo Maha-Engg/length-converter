@@ -1,38 +1,58 @@
-.App {
-  text-align: center;
+
+.container{
+
+  background-color: rgb(201, 140, 59);
+  font-size: 1rem;
+  box-sizing: border-box;
+  width:60%;
+  margin: 5rem;
+  padding: 2rem;
+  border-radius: 1rem;
+
+}
+.container h2{
+  font-size: 2rem;
+  color:rgb(90, 7, 90);
+
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.unit{
+  margin: 1rem;
+  
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.unit label{
+  font-size: 2rem;
+  color:darkblue;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.to label{
+  font-size: 2rem;
+  color:darkblue;
 }
-
-.App-link {
-  color: #61dafb;
+.btn{
+  background-color: blue;
+  padding: 5px;
+  margin-left: 20px ;
+  margin-top: 10px;
+  border-radius: 8px;
+  
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.btn:hover{
+  background-color: rgb(70, 223, 88);
+  padding: 8px;
+  margin-left: 20px ;
+  margin-top: 10px;
+  border-radius: 10px;
+}
+.unit input{
+  padding: 5px;
+}
+.to input{
+  padding: 5px;
+}
+.select{
+   padding: 5px;
+   margin-left: 10px;
+   font-size: 1rem;
+   font-style: oblique;
+   font-weight: 600;
 }
